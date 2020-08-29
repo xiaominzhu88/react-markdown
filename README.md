@@ -1,6 +1,6 @@
 # React Markdown-Previewer
 
-### This project is Using Marked.js library
+### This project is Using react-markdown library
 
 - [ ] yarn add react-markdown
 
