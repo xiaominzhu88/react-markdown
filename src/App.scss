@@ -7,10 +7,21 @@
   color: $primaryColor;
   text-align: center;
   font-size: 1.5em;
+  margin: 1em auto;
 }
 .mdPreview,
-.inputPreview {
+.htmlPreview {
   text-align: center;
-  border: 1px red solid;
+  background-color: beige;
   margin: 2em auto;
+  padding: 5px;
+}
+button {
+  background-color: rgb(228, 228, 142);
+  border-radius: 5px;
+  padding: 5px;
+}
+.toggleButton {
+  margin: 2em auto;
+  text-align: center;
 }
