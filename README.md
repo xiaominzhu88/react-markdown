@@ -2,13 +2,13 @@
 
 ### This project is Using Marked.js library
 
-- [ ] yarn add marked
+- [ ] yarn add react-markdown
 
-this library is a low-level compiler for parsing markdown without caching or blocking for long periods of time
+### This project is using prop-types and sass
 
-### This project is using @emotion/core
+- [ ] yarn add prop-types
 
-- [ ] yarn add @emotion/core
+- [ ] yarn add node-sass
 
 - User can type text at Markdown input field
 
