@@ -1,0 +1,16 @@
+@import './sass/variables.scss';
+
+.markdown {
+  margin: 1em auto;
+}
+.preview {
+  color: $primaryColor;
+  text-align: center;
+  font-size: 1.5em;
+}
+.mdPreview,
+.inputPreview {
+  text-align: center;
+  border: 1px red solid;
+  margin: 2em auto;
+}
