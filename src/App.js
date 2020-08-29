@@ -35,12 +35,12 @@ export default function MarkdownPreviewer() {
       <div className="preview">
         {!shouldShowHtml ? (
           <MarkdownInput
-            updateTextForMarkdown={(e) => setInputText(e)}
+            updateTextForMarkdown={(e) => setInputText(e.target.value)}
             inputText={inputText}
           />
         ) : (
           <MarkdownHtml
-            updateHtmlForMarkdown={(e) => setInputHtmlText(e)}
+            updateHtmlForMarkdown={(e) => setInputHtmlText(e.target.value)}
             inputHtmlText={inputHtmlText}
           />
         )}
